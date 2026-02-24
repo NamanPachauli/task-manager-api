@@ -1,3 +1,3 @@
-Task Manager API 🚀 
+                                                         TASK MANAGER REST API PROJECT 🚀
 
-A simple REST API built with Go, containerized using Docker, and deployed on Kubernetes.
+                                                         
