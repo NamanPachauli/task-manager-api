@@ -1,0 +1,17 @@
+# Base Image
+FROM golang:1.24-alpine
+
+# working directory
+WORKDIR /app
+
+# Copy go files
+COPY . .
+
+# Build binary
+RUN go build -o taskmanager server.go
+
+# Expose port
+EXPOSE 9091
+
+# RUN binary
+CMD ["./taskmanager"]
